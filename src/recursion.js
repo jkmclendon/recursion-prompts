@@ -109,7 +109,6 @@ var powerOfTwo = function(n) {
   } else if (n < 2) {
     return false;
   } else {
-    return powerOfTwo(n / 2);
   }
 };
 
